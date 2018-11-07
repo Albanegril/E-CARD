@@ -53,27 +53,84 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Common\Scripts\AboutManager.cs" />
+     <Compile Include="Assets\Common\Scripts\AboutScreen.cs" />
+     <Compile Include="Assets\Common\Scripts\AboutScreenInfo.cs" />
+     <Compile Include="Assets\Common\Scripts\AsyncSceneLoader.cs" />
+     <Compile Include="Assets\Common\Scripts\CameraSettings.cs" />
+     <Compile Include="Assets\Common\Scripts\CloudErrorHandler.cs" />
+     <Compile Include="Assets\Common\Scripts\CloudRecoEventHandler.cs" />
+     <Compile Include="Assets\Common\Scripts\CloudRecoScanLine.cs" />
+     <Compile Include="Assets\Common\Scripts\FrameRateSettings.cs" />
+     <Compile Include="Assets\Common\Scripts\InitErrorHandler.cs" />
+     <Compile Include="Assets\Common\Scripts\LoadingScreen.cs" />
+     <Compile Include="Assets\Common\Scripts\MenuAnimator.cs" />
+     <Compile Include="Assets\Common\Scripts\MenuOptions.cs" />
+     <Compile Include="Assets\Common\Scripts\MessageBox.cs" />
+     <Compile Include="Assets\Common\Scripts\NavigationHandler.cs" />
+     <Compile Include="Assets\Common\Scripts\OptionsConfig.cs" />
+     <Compile Include="Assets\Common\Scripts\SceneOrientation.cs" />
+     <Compile Include="Assets\Common\Scripts\TapHandler.cs" />
+     <Compile Include="Assets\Common\Scripts\TrackableSettings.cs" />
+     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Astronaut.cs" />
+     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Augmentation.cs" />
+     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Drone.cs" />
+     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\RockPileController.cs" />
+     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\InteractionHelpers\DrillController.cs" />
+     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\InteractionHelpers\FadeObject.cs" />
+     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\StateMachineBehaviours\AstronautStateMachineBehaviour.cs" />
+     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\StateMachineBehaviours\AugmentationStateMachineBehaviour.cs" />
+     <Compile Include="Assets\SamplesResources\Scripts\ARVRAboutManager.cs" />
+     <Compile Include="Assets\SamplesResources\Scripts\Autofocus.cs" />
+     <Compile Include="Assets\SamplesResources\Scripts\BackToAbout.cs" />
+     <Compile Include="Assets\SamplesResources\Scripts\BlackMaskBehaviour.cs" />
+     <Compile Include="Assets\SamplesResources\Scripts\Button3D.cs" />
+     <Compile Include="Assets\SamplesResources\Scripts\Reticle.cs" />
+     <Compile Include="Assets\SamplesResources\Scripts\TransitionManager.cs" />
+     <Compile Include="Assets\SamplesResources\Scripts\ViewTrigger.cs" />
+     <Compile Include="Assets\Scripts\AddJeSuis.cs" />
      <Compile Include="Assets\Scripts\AffichageCompte.cs" />
      <Compile Include="Assets\Scripts\SetBonjour.cs" />
      <Compile Include="Assets\Scripts\SetJeSuis.cs" />
      <Compile Include="Assets\Scripts\SetPseudo.cs" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
+     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\SamplesResources\Shaders\TransparentUnlit.shader" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\SamplesResources\Shaders\SkyBlend.shader" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\StreamingAssets\Vuforia\e-CARD.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
+     <None Include="Assets\SamplesResources\Shaders\OverlayMesh.shader" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\SamplesResources\Shaders\BlackMask.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\SamplesResources\Shaders\GroundBlend.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Albane GRIL/Documents/Cours/4A/RA_e-CARD/E-CARD/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
@@ -317,6 +374,14 @@
  <Reference Include="Boo.Lang">
  <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="VuforiaScripts.csproj">
+      <Project>{F94CCBF7-7B93-6E90-5E7A-78ECA5533A13}</Project>      <Name>VuforiaScripts</Name>    </ProjectReference>
+    <ProjectReference Include="VuforiaEditorScripts.csproj">
+      <Project>{D19BB8ED-5C73-592A-7E79-BB0B587DC1E3}</Project>      <Name>VuforiaEditorScripts</Name>    </ProjectReference>
+    <ProjectReference Include="VuforiaVersionCheckerScripts.csproj">
+      <Project>{E026B074-63FC-DB0E-3C94-163D4CDBCB01}</Project>      <Name>VuforiaVersionCheckerScripts</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
