@@ -91,6 +91,7 @@
      <Compile Include="Assets\SamplesResources\Scripts\ViewTrigger.cs" />
      <Compile Include="Assets\Scripts\AddJeSuis.cs" />
      <Compile Include="Assets\Scripts\AffichageCompte.cs" />
+     <Compile Include="Assets\Scripts\EditButtonCard.cs" />
      <Compile Include="Assets\Scripts\SetBonjour.cs" />
      <Compile Include="Assets\Scripts\SetJeSuis.cs" />
      <Compile Include="Assets\Scripts\SetPseudo.cs" />
