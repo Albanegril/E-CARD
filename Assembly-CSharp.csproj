@@ -72,7 +72,6 @@
      <Compile Include="Assets\Common\Scripts\SceneOrientation.cs" />
      <Compile Include="Assets\Common\Scripts\TapHandler.cs" />
      <Compile Include="Assets\Common\Scripts\TrackableSettings.cs" />
-     <Compile Include="Assets\OnClick.cs" />
      <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Astronaut.cs" />
      <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Augmentation.cs" />
      <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Drone.cs" />
@@ -89,6 +88,7 @@
      <Compile Include="Assets\SamplesResources\Scripts\Reticle.cs" />
      <Compile Include="Assets\SamplesResources\Scripts\TransitionManager.cs" />
      <Compile Include="Assets\SamplesResources\Scripts\ViewTrigger.cs" />
+     <Compile Include="Assets\Scripts\AAAA.cs" />
      <Compile Include="Assets\Scripts\AddJeSuis.cs" />
      <Compile Include="Assets\Scripts\AffichageCompte.cs" />
      <Compile Include="Assets\Scripts\EditButtonCard.cs" />
