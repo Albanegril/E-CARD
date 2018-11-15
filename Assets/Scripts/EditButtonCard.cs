@@ -7,25 +7,40 @@ using TMPro;
 public class EditButtonCard : MonoBehaviour {
     public TMP_InputField ChampsSaisie;
     public TextMeshProUGUI TextBox;
+    public Button Icone;
 
     // Use this for initialization
     void Start () {
         
         TextBox = new TextMeshProUGUI();
     }
-	
-    public void Facebook()
+
+    void Update()
     {
-        // set input text box active, 
-        // ChampsSaisie.SetActive();
-        // enter fb name or link // drag&drop link
-        TextBox.text = "Saisisez votre nom fb ou un lien";
-        // register link in card link DB
-        // afficher la saisie
-                   TextBox.text = ChampsSaisie.text;
 
+                
+            switch (Icone.name)
+            {
+                case "Button_Telephone":
+                   
+                    break;
+
+                case "Button_Mail":
+                    
+                    break;
+
+                case "Button_Twitter":
+                    
+                    break;
+
+                case "Button_Facebook":
+                    TextBox.text = "Saisisez votre nom fb ou un lien";
+                    TextBox.text = ChampsSaisie.text;
+                    break;
+
+                default:
+                    break;
+            }
     }
-
-
 
 }
